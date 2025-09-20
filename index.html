@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlyAway Airlines</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>HIT THE TOWERS AIRLINE ✈️</h1>
+    <p>Book your dream destination now!</p>
+  </header>
+
+  <section class="gallery">
+    <img src="https://t3.ftcdn.net/jpg/02/65/64/24/360_F_265642486_IXw9DQVzjTfAzT8xMtTBXBvYD8Who6Fw.jpg" height="70mpx" width="70mpx" alt="india">
+    <img src="https://images.squarespace-cdn.com/content/v1/5b3fe49df8370a3a890259e8/1c8594cb-c1c5-4140-a2b7-807ed68f6d34/View-From-MUN-Restaurant-Paris%2CFrance_TheWeithouse.jpg" height="70mpx" width="70mpx" alt="Paris" />
+    <img src="https://www.theglobetrottingteacher.com/wp-content/uploads/2023/09/New-York-City-Skyline-at-Sunset-DP.jpg" height="70mpx" width="70mpx" alt="New York" />
+    <img src="https://i0.wp.com/tokyotreatblog.wpcomstaging.com/wp-content/uploads/2024/05/asakusa-6-nighttime.webp?resize=620%2C414&ssl=1" height="70mpx" width="70mpx" alt="Tokyo" />
+    <img src="https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_680/v1663225108/blog/arh6isb8hkos0nmvlnnz.jpg" height="70mpx" width="70mpx" alt="switxerland">
+  </section>
+
+  <main>
+    <form id="bookingForm">
+      <h2>Flight Booking</h2>
+      <label>Name: <input type="text" id="name" required /></label>
+      <label>Destination:
+        <select id="destination">
+          <option value="Paris">Paris</option>
+          <option value="New York">New York</option>
+          <option value="Tokyo">Tokyo</option>
+        </select>
+      </label>
+      <label>Date: <input type="date" id="date" required /></label>
+      <label>Passengers: <input type="number" id="passengers" min="1" value="1" /></label>
+      <button type="submit">Book Flight</button>
+    </form>
+
+    <div id="ticket" class="hidden"></div>
+  </main>
+
+  <footer>
+    <p>© 2025 FlyAway Airlines. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

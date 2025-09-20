@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f9d423, #ff4e50);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #ff4e50;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #fff3cd;
+}
+
+.gallery img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+main {
+  padding: 20px;
+  background-color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+  background-color: #ffe0b2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form h2 {
+  text-align: center;
+  color: #d84315;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, select, button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ff7043;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+#ticket {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #c8e6c9;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 30px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+}
